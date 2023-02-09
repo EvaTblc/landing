@@ -1,0 +1,35 @@
+.banner {
+  background-image: url("../../images/untitled-design-96.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 40rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin: 0;
+}
+
+.container a {
+  color: white;
+  background: #B2945B;
+  padding: 15px 25px;
+  border-radius: 20%;
+  font-weight: bold;
+}
+
+.container p {
+  color: #EBEBD3;
+  font-size: 20px;
+}
+
+.container a:hover {
+  background: linear-gradient(#093824, #F4D35E);
+  transition: 2s;
+}

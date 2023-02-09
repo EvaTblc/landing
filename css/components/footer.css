@@ -1,0 +1,32 @@
+.footer {
+  background-color: #402E2A;
+  padding: 75px;
+  text-align: center;
+  box-shadow: 1px 1px 15px lightgrey;
+}
+
+.footer p{
+  color: white;
+  font-weight: bold;
+}
+.links{
+  display: flex;
+  justify-content: space-evenly;
+  width: 250px;
+  margin: auto;
+}
+.links .link{
+  font-size: 30px;
+  padding: 0px 30px;
+  padding-left: 0px;
+  margin: 0 auto;
+}
+
+.link i{
+  color: white;
+}
+
+.link i:hover{
+  color: black;
+  transition: 0.5s;
+}
